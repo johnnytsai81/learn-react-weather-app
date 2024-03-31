@@ -14,25 +14,25 @@
 
 ## 環境建置
 
-  - Node.js: v18.20.0
-  - react: v11.10.0
+- Node.js: v18.20.0
+- react: v11.10.0
 
 ## 使用指南
 
 1. 將專案 clone 至本地，至終端機輸入：
 
-   ```
-   git clone https://github.com/johnnytsai81/learn-react-weather-app.git
-   ```
-   
+	 ```
+	 git clone https://github.com/johnnytsai81/learn-react-weather-app.git
+	 ```
+
 2. 在終端機中輸入以下以安裝相關套件：
 
-   ```
-   npm install
-   ```
-   
+	 ```
+	 npm install
+	 ```
+
 3. 在終端機中輸入以下便可執行專案：
 
-   ```
-   npm run start
-   ```
+	 ```
+	 npm run start
+	 ```
