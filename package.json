@@ -1,5 +1,6 @@
 {
-  "name": "realtime-weather-app",
+  "name": "learn-react-weather-app",
+  "homepage": "https://johnnytsai81.github.io/learn-react-weather-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,6 +10,7 @@
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^14.3.0",
     "dayjs": "^1.11.5",
+    "gh-pages": "^6.1.1",
     "normalize.css": "^8.0.1",
     "react": "^18.2.0",
     "react-dom": "18.2.0",
@@ -32,7 +34,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "build:process-sunrise-sunset": "node src/scripts/generateSunriseAndSunsetData/process-sunrise-and-sunset.mjs"
+    "build:process-sunrise-sunset": "node src/scripts/generateSunriseAndSunsetData/process-sunrise-and-sunset.mjs",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "overrides": {
     "nth-check": "2.0.1"
